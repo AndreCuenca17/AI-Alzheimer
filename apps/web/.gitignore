@@ -1,15 +1,27 @@
-# Node
-node_modules/
-dist/
-.vite/
-.env.local
-.env.*.local
+# Local ignore for the web app (Vite/React)# Node
 
-# Vite/React build artefacts
-out/
-*.log
+node_modules/node_modules/
+
+dist/dist/
+
+.vite/.vite/
+
+.env.local.env.local
+
+.env.*.local.env.*.local
 
 # Editor
+
+.vscode/# Vite/React build artefacts
+
+.idea/out/
+
+*.log
+
+# local cache
+
+.cache/# Editor
+
 .vscode/
 .idea/
 
