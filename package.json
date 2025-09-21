@@ -2,6 +2,8 @@
   "scripts": {
     "web:dev": "pnpm -C apps/web dev",
     "web:build": "pnpm -C apps/web build",
-    "server:dev": "pnpm -C apps/server dev || uvicorn main:app --reload --port 8000"
+    "server:dev": "pnpm -C apps/server dev || uvicorn main:app --reload --port 8000",
+    "build:web": "pnpm --filter ./apps/web... build",
+    "install:ci": "pnpm install --frozen-lockfile"
   }
 }
