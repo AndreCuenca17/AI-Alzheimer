@@ -1,0 +1,15 @@
+# Python server local ignores
+.venv/
+venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+.coverage
+*.egg-info/
+build/
+dist/
+.vscode/
+.idea/

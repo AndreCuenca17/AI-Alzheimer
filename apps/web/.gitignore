@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+.vite/
+.env.local
+.env.*.local
+
+# Vite/React build artefacts
+out/
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# local cache
+.cache/
